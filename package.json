@@ -1,0 +1,19 @@
+{
+  "name": "steal-riot-example",
+  "version": "1.0.0",
+  "description": "Project using stealjs and riot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "author": "hiep",
+  "license": "MIT",
+  "dependencies": {
+    "riot": "^2.2.2",
+    "steal": "^0.10.5"
+  },
+  "system": {
+    "npmIgnore": ["devDependencies", "optionalDependencies"]
+  }
+}
