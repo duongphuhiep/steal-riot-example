@@ -13,7 +13,7 @@ Sample project using [stealjs](http://stealjs.com) and [riotjs](https://muut.com
 
 ##Notes
 
-* [`gen/my-greet.js`](blob/master/gen/my-greet.js) is generated from [`my-greet.tag`](blob/master/my-greet.tag):
+* [`gen/my-greet.js`](/gen/my-greet.js) is generated from [`my-greet.tag`](/my-greet.tag):
 ```
     riot my-greet.tag gen
 ```
