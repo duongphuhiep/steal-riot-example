@@ -1,7 +1,4 @@
-import riot from "node_modules/riot/riot";
+var riot = require("bower_components/riot/riot");
+require("gen/my-greet");
 
-let HelloMessage = riot.tag('my-greet', 'Hello { name }', function(opts) {
-  this.name = "World";
-});
-
-riot.mount("my-greet"); //or riot.mount(HelloMessage);
+riot.mount("my-greet");

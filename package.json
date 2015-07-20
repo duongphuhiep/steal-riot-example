@@ -9,10 +9,6 @@
   },
   "author": "hiep",
   "license": "MIT",
-  "dependencies": {
-    "riot": "^2.2.2",
-    "steal": "^0.10.5"
-  },
   "system": {
     "npmIgnore": ["devDependencies", "optionalDependencies"]
   }
